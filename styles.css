@@ -24,7 +24,7 @@
 }
 
 .contCardHeader {
-  background-image: url(/images/bg-pattern-card.svg);
+  background-image: url(./images/bg-pattern-card.svg);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -36,10 +36,15 @@
 }
 
 .contImage {
-  position: absolute;
-  top: calc( 100% - 380px);
+  
+/*   top: calc( 100% - 380px);
   left: calc( 100% - 200px);
-  z-index: 100;
+  z-index: 100; */
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 3;
 }
 
 .contImage .imageCard {
@@ -123,18 +128,23 @@
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
   .contImage {
-    position: absolute;
+/*     position: absolute;
     top: calc( 100% - 605px);
-    left: calc( 100% - 420px);
+    left: calc( 100% - 420px); */
+   position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 3;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
-  .contImage {
+/*   .contImage {
     position: absolute;
     top: calc( 100% - 405px);
     left: calc( 100% - 720px);
-  }
+  } */
 }
 
 .attribution {
