@@ -28,6 +28,9 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+.contCardHeader h2 {
+  display: none;
+}
 
 .contCardCont {
   display: grid;
@@ -37,7 +40,7 @@
 
 .contImage {
   position: absolute;
-  top: 25%;
+  top: 33%;
   left: calc(50% - 38px);
   z-index: 100;
 }
@@ -114,6 +117,25 @@
   position: fixed;
 }
 
+.containerFooter {
+  display: grid;
+  justify-items: center;
+  background: #000;
+  width: 100%;
+}
+.containerFooter p {
+  color: #fff;
+  text-align: center;
+}
+.containerFooter a {
+  color: #FF3F00;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.containerFooter a:hover {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 375px) and (max-width: 768px) {
   .contImage {
     position: absolute;
@@ -124,8 +146,8 @@
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
   .contImage {
     position: absolute;
-    top: calc( 100% - 405px );
-    left: calc( 100% - 720px );
+    top: calc( 100% - 340px );
+    left: calc( 100% - 585px );
   }
 }
 .attribution {
@@ -133,8 +155,4 @@
   color: white;
   font-size: 10px;
   padding: 20px;
-}
-.attribution a {
-  color: white;
-  text-transform: capitalize;
 }/*# sourceMappingURL=styles.css.map */
