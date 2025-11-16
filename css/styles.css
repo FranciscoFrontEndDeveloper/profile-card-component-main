@@ -18,7 +18,9 @@
 
 .main__contCard {
   display: grid;
-  grid-template-rows: 40% 60%;
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  position: relative;
   width: 340px;
   height: 400px;
   background: #fff;
@@ -30,13 +32,20 @@
 }
 
 .contCardHeader {
-  background-image: url(/images/bg-pattern-card.svg);
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  grid-row: 6/9;
+  grid-column: 5/9;
+  z-index: 10;
+  position: relative;
+  transform: translateY(-50%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
-
-h2 {
-  display: none;
+.contCardHeader img {
+  height: auto;
+  width: auto;
+  margin: auto;
+  border-radius: 50%;
 }
 
 .contCardCont {
