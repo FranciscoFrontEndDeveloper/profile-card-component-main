@@ -19,16 +19,20 @@
 .main__contCard {
   display: grid;
   grid-template-rows: 40% 60%;
-  width: 288px;
-  height: 273px;
+  width: 340px;
+  height: 400px;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 20px;
+  background-image: url(/images/bg-pattern-card.svg), linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+  background-position: top center, bottom center;
+  background-size: 100% 40%, 100% 60%;
+  background-repeat: no-repeat;
 }
 
 .contCardHeader {
   background-image: url(/images/bg-pattern-card.svg);
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 h2 {
