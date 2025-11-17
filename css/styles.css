@@ -119,24 +119,6 @@ div p {
   font-size: 12px;
 }
 
-.top_img {
-  position: absolute;
-  top: -58%;
-  left: -252px;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  position: fixed;
-}
-
-.bottom_img {
-  position: absolute;
-  bottom: -66%;
-  right: -209px;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  position: fixed;
-}
-
 @media screen and (min-width: 375px) and (max-width: 768px) {
   .contImage {
     position: absolute;
@@ -144,20 +126,8 @@ div p {
     left: calc(100% - 420px);
   }
 }
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
-  .contImage {
-    position: absolute;
-    top: calc(100% - 340px);
-    left: calc(100% - 585px);
+@media screen and (min-width: 1024px) {
+  .main {
+    background-image: url(/images/375CardDesktop.png);
   }
-}
-.attribution {
-  background: #000;
-  color: white;
-  font-size: 12px;
-  padding: 20px;
-}
-
-.main {
-  background-image: url(/images/375CardDesktop.png);
 }/*# sourceMappingURL=styles.css.map */
