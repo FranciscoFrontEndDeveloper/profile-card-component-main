@@ -4,7 +4,7 @@
 }
 
 .main {
-  background-image: url(/images/375Card.png);
+  background-image: url("/images/375Card.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -25,7 +25,7 @@
   height: 400px;
   background: #fff;
   border-radius: 20px;
-  background-image: url(/images/bg-pattern-card.svg), linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+  background-image: url("/images/bg-pattern-card.svg"), linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
   background-position: top center, bottom center;
   background-size: 100% 42%, 100% 58%;
   background-repeat: no-repeat;
